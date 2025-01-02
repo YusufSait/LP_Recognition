@@ -48,5 +48,6 @@ Command to start the application:
 $ python ocr_for_lp.py
 ```
 A screenshot from the application:
+
 ![LP_country-01](https://github.com/user-attachments/assets/c101732d-d757-4421-b72d-31f621804a99)
 

@@ -1,0 +1,10 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./LP_DS/train.txt  # paths of each image
+val: ./LP_DS/val.txt  # paths of each image
+test: ./LP_DS/test.txt  # paths of each image
+
+# number of classes
+nc: 1
+
+# class names
+names: [ 'LP' ]

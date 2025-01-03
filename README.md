@@ -10,9 +10,9 @@ The YOLOv7 object detection model is trained by transfer-learning method on anno
 	- TP, FP, FN, TN = 13, 5, 12, 0
 	- precision = 13/25 = %52
 
-The YOLOv7 code is derived from https://github.com/WongKinYiu/yolov7/ with minor changes. The pre-trained YOLOv7 model “LP_detect_yolov7_500img.pt” is downloaded from: https://github.com/mrzaizai2k/License-Plate-Recognition-YOLOv7-and-CNN
+The YOLOv7 code is derived from https://github.com/WongKinYiu/yolov7/ with minor changes. The pre-trained YOLOv7 model “LP_detect_yolov7_500img.pt” is from the project https://github.com/mrzaizai2k/License-Plate-Recognition-YOLOv7-and-CNN and can be downloaded using the link https://drive.google.com/file/d/1IsPv4xFcN0xDrS99c3wo6vhN2X5trBYK/view. The final trained model file in this project can be downloaded using the link https://drive.google.com/file/d/1ALvWbtUcnAq5bkhtTLvW7VBP7dEE-wYH/view. Prediction outputs by the final trained model on the test set are located in "yolov7/runs/detect/on_test_set-TL_model/" folder in this repository.
 
-A license plate dataset in COCO format is generated. The dataset folder “AI_assigment_datasets” should be downloaded and placed next to “yolov7” project folder. All other necessary files are in this repository.
+A license plate dataset in COCO format is generated. The dataset folder “AI_assigment_datasets” should be downloaded from https://drive.google.com/file/d/16FR8m4yBKiGodgB0_JKWKkAa3o7jfpSw/view and placed next to “yolov7” project folder. All other necessary files are in this repository.
 
 Command for training the pre-trained model with the “AI_assigment_datasets”:
 ```
